@@ -11,6 +11,7 @@ class App extends Component {
     contacts: [],
     filter: '',
   };
+  // try to buid project
 
   componentDidMount() {
     const contacts = localStorage.getItem('contacts');
